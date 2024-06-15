@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<SexyContent FileVersion="07.00.00" MinimumRequiredVersion="07.04.02" ModuleVersion="14.12.03" ExportDate="2024-06-14T20:18:48.1788959-04:00">
+<SexyContent FileVersion="07.00.00" MinimumRequiredVersion="07.04.02" ModuleVersion="16.07.00" ExportDate="2024-06-14T20:23:33.4867821-04:00">
   <Header>
     <App Guid="24ab2c4e-0ccd-46f1-90a1-f9a840757adc" />
     <Language Default="en-us" />
     <Dimensions />
   </Header>
   <AttributeSets>
-    <AttributeSet StaticName="App-Resources" Name="App-Resources" Description="Stores resources like translations for an app" Scope="System.App" AlwaysShareConfiguration="false">
+    <AttributeSet StaticName="App-Resources" Name="App-Resources" Scope="System.App" AlwaysShareConfiguration="false">
       <Attributes>
         <Attribute StaticName="VideosTitle" Type="String" IsTitle="true">
           <Entity TargetType="2" AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="43c759ea-2b1a-4a06-b4a4-18cf507a93c8" Json="True" KeyNumber="424">
@@ -24,7 +24,7 @@
         </Attribute>
       </Attributes>
     </AttributeSet>
-    <AttributeSet StaticName="App-Settings" Name="App-Settings" Description="Stores settings for an app" Scope="System.App" AlwaysShareConfiguration="false">
+    <AttributeSet StaticName="App-Settings" Name="App-Settings" Scope="System.App" AlwaysShareConfiguration="false">
       <Attributes>
         <Attribute StaticName="DetailPage" Type="Hyperlink" IsTitle="true">
           <Entity TargetType="2" AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="02d3074c-9227-4270-88d5-8c83133d118a" Json="True" KeyNumber="423">
@@ -54,7 +54,7 @@
         </Attribute>
       </Attributes>
     </AttributeSet>
-    <AttributeSet StaticName="57d58c7e-ae62-4da4-b0ea-45ae11c731f4" Name="Banner" Description="" Scope="Default" AlwaysShareConfiguration="false">
+    <AttributeSet StaticName="57d58c7e-ae62-4da4-b0ea-45ae11c731f4" Name="Banner" Scope="Default" AlwaysShareConfiguration="false">
       <Attributes>
         <Attribute StaticName="Heading" Type="String" IsTitle="true">
           <Entity TargetType="2" AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="483c44db-1e4b-42da-9624-051d68a06b6f" Json="True" KeyNumber="398">
@@ -170,7 +170,7 @@
         </Attribute>
       </Attributes>
     </AttributeSet>
-    <AttributeSet StaticName="207b2d07-cead-41a6-9c94-7cdffb45bd4c" Name="Video" Description="" Scope="Default" AlwaysShareConfiguration="false">
+    <AttributeSet StaticName="207b2d07-cead-41a6-9c94-7cdffb45bd4c" Name="Video" Scope="Default" AlwaysShareConfiguration="false">
       <Attributes>
         <Attribute StaticName="Title" Type="String" IsTitle="true">
           <Entity TargetType="2" AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="f1a0c8db-9c6b-4ebe-afc9-1f91ffb056e4" Json="True" KeyNumber="392">
